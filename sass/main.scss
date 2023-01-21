@@ -11,8 +11,8 @@ body {
 }
 
 .rotate {
-  transform: rotate(180deg);
-  transition: ease-in;
+  transform: rotate(360deg);
+  transition: 1000ms ease;
 }
 
 main {
@@ -58,7 +58,6 @@ main {
     cursor: pointer;
     position: absolute;
     bottom: -27px;
-    transition: 300ms ease;
     &:hover,
     &:focus {
       background-color: $neon-green;
